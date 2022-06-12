@@ -1,0 +1,99 @@
+.wrapper-form{
+    position: relative;
+    width: 100%;
+}
+.form{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 7000;
+} 
+.warper{
+    width: 600px;
+    background-color: aliceblue;
+}
+.form-close{
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+.title{
+    margin-bottom: 50px;
+    position: relative;
+}
+.title h1{
+    text-align: center;
+    font-size: 35px;
+    color: yellowgreen;
+}
+.title > .form-close{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #999;
+    text-decoration: underline;
+}
+.title > .form-close:hover{
+    color: #333;
+}
+.form-group{
+    margin: 10px 30px;
+}
+.form-group label{
+    display: block;
+    font-size: 22px;
+    font-weight: 520;
+    margin-bottom: 7px;
+
+}
+.form-group > input{
+    outline: none;
+    border: none;
+    padding: 5px 20px 5px 10px;
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    border: 1px #333 solid;
+}
+.form-submit{
+    width: 100px;
+    height: 40px;
+    margin: 40px auto;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgba(154,205,50,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-submit:hover{
+    background-color: rgb(154,205,50);
+}
+.change-form{
+    font-size: 12px;
+    text-align: center;
+}
+.change-form p{
+    display: inline;
+}
+.change-link{
+    margin-left: 10px;
+    color: rgb(58, 58, 247);
+}

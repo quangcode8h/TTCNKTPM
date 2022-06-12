@@ -1,0 +1,17 @@
+import {Movies} from './Data'
+import Header from '../Layout/Header'
+import Home from '../Layout/Home'
+import PhimMoi from '../Category/PhimMoi'
+import PhimBo from '../Category/PhimBo'
+import PhimLe from '../Category/PhimLe'
+import PhimHoatHinh from '../Category/PhimHoatHinh'
+import PhimChieuRap from '../Category/PhimChieuRap'
+import Search from '../Layout/Search'
+import TypeMovies from '../TypeMovies/TypeMovies'
+import MovieDetail from '../Movies/MovieDetail'
+import Footer from '../Layout/Footer'
+import LogIn from '../Login/LogIn'
+import Register from '../Login/Register'
+import WatchMovieTrailer from '../Movies/WatchMovieTrailer'
+
+export {Movies, Header, Home, PhimMoi, PhimBo, PhimLe, PhimHoatHinh, PhimChieuRap, Search, TypeMovies, MovieDetail, Footer, LogIn, Register, WatchMovieTrailer}

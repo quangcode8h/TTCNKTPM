@@ -1,0 +1,28 @@
+footer{
+    margin-top: 100px;
+    border-top: 1px solid rgb(190, 189, 189);
+    width: 100%;
+    background-color: #081b27;
+  }
+  .footer-content{
+    height: 150px;
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .footer-posts div, .footer-contact div{
+    margin: 5px 0;
+    font-size: 18px;
+    color: #999;
+    cursor: pointer;
+  }
+  .footer-copyright{
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+  }
